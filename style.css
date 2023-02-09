@@ -1,0 +1,76 @@
+
+  @media (max-width: 992px) {
+    input[type="text"] {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"]::-webkit-input-placeholder {
+    font-style: italic;
+    color: #CCC;
+  }
+  
+  input[type="text"]::-moz-placeholder {
+    font-style: italic;
+    color: #CCC;
+  }
+  
+  input[type="text"]::-ms-input-placeholder {
+    font-style: italic;
+    color: #CCC;
+  }
+  
+  input[type="text"]::placeholder {
+    font-style: italic;
+    color: #CCC;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5e5e5e;
+    color: #FFF;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4e4e4e;
+  }
+  
+  .calculate-percentage {
+    display: none;
+  }
+  
+  #resultPercentage1, #resultPercentage2 {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(97, 146, 97);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    input[type="text"] {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      width: 80%;
+    }
+  }
+  
